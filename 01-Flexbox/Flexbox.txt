@@ -1,0 +1,54 @@
+Flexbox
+
+2 axes row and column
+row horizontal, column vertical
+-for positioning inside the content to cleanher layout of the page
+-nested - container in container
+-activity
+
+What is Css
+
+layout model that allows elements to align and distribute space betweern elems width and height. It compressed code
+
+layout methods - block, inline, inline-block
+flexbox elems are flexible to shrink for smaller space or fill additional space
+
+
+Why learn
+
+simple layout reqs
+vertically centering elements
+marginL auto - 
+
+display: flex;
+flex-grow: 1; - takes the space left for that particular item or splits available split between elements applied to
+justify-content: space-around align main direction and gives space
+align-items: start - vertical center
+justify-content: aligns horizontally
+flex-direction row: Items are placed the same as the text direction.
+row-reverse: Items are placed opposite to the text direction.
+column: Items are placed top to bottom.
+column-reverse: Items are placed bottom to top.
+
+Sometimes reversing the row or column order of a container is not enough. In these cases, we can apply the order property to individual items. By default, items have a value of 0, but we can use this property to also set it to a positive or negative integer value (-2, -1, 0, 1, 2).
+
+Use the order property to reorder the frogs according to their lilypads.
+
+Another property you can apply to individual items is align-self. This property accepts the same values as align-items and its value for the specific item.
+
+Oh no! The frogs are all squeezed onto a single row of lilypads. Spread them out using the flex-wrap property, which accepts the following values:
+
+nowrap: Every item is fit to a single line.
+wrap: Items wrap around to additional lines.
+wrap-reverse: Items wrap around to additional lines in reverse.
+
+The two properties flex-direction and flex-wrap are used so often together that the shorthand property flex-flow was created to combine them. This shorthand property accepts the value of the two properties separated by a space.
+
+For example, you can use flex-flow: row wrap to set rows and wrap them.
+
+Try using flex-flow to repeat the previous level.
+
+https://codepen.io/matt-boisseau/pen/zYqVaxv - flex container demo
+https://yoksel.github.io/flex-cheatsheet/#section-flex-grow
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://flexboxfroggy.com/
