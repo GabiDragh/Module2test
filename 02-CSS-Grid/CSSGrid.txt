@@ -1,0 +1,18 @@
+grid-template-areas: `header header` (syntax between ``)
+a-index to move image on top of the other
+
+height: vh - viewport height
+css units https://www.w3schools.com/cssref/css_units.php 
+
+@media only screen and (max-width: 600px) {
+    background-color: lightblue;
+    color: white;
+}
+
+Use 3 breakpoints: desktop, tablet and phone
+Always start with mobile (width:100%)
+w3schools.com/css/css_rwdmediaqueries.asp
+
+Activity Part one done file:///C:/Users/dragh/Bootcamp/Module2test/02-CSS-Grid/01-CSS-Grid-Part1/starter/index.html
+Activity Part 2 done file:///C:/Users/dragh/Bootcamp/Module2test/02-CSS-Grid/02-CSS-Grid_Part2/starter/index.html
+Activity Part 3 done file:///C:/Users/dragh/Bootcamp/Module2test/02-CSS-Grid/03-CSS-Grid-Part3/starter/index.html
